@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -15,8 +14,8 @@ int main(void)
 	_putchar('t');
         _putchar('c');
         _putchar('h');
-        _putchar('_');
-        _putchar('a');
+ 	_putchar('a');
         _putchar('r');
-        _putchar('\n');
+	_putchar('\n');
+	return (0);
 }
