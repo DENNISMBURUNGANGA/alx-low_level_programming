@@ -1,18 +1,11 @@
 #include "main.h"
 /**
- * _strlen - returns the length of a string
- * @s: string
- * Return: length
+ * reset_to_98 - a function that takes a pointer to an int as parameter
+ * and updates the value it points to to 98
+ * @n: input
+ * Return: n
  */
-int _strlen(char *s)
+void reset_to_98(int *n)
 {
-	int longi = 0;
-
-	while (*s != '\0')
-	{
-		longi++;
-		s++;
-	}
-
-	return (longi);
+	*n = 98;
 }
